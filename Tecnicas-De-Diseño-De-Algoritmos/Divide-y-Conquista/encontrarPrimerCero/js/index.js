@@ -7,7 +7,6 @@ function encontrarPrimerCero(arr , inic , fin){
         }
     } else {
         const mitad = Math.floor(inic + ((fin - inic) / 2));
-        console.log(mitad);
         if (arr[mitad] == 0){
             return encontrarPrimerCero(arr,inic,mitad)
         } else {
